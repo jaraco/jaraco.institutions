@@ -7,6 +7,13 @@ setup_params = dict(
 	packages=find_packages(),
 	namespace_packages=['jaraco'],
 	zip_safe=False,
+	entry_points = dict(
+		financial_institutions = [
+			'Los Alamos National Bank=jaraco.institutions.sites:LANB',
+			'Chase (Credit Card)=jaraco.institutions.sites:Chase',
+			'SLFCU=jaraco.institutions.sites:SLFCU',
+		],
+	),
 	setup_requires=[
 		'hgtools',
 	],
