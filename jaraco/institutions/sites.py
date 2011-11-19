@@ -20,3 +20,10 @@ LANB = dict(
 	url = 'https://ofx.lanb.com/ofx/ofxrelay.dll',
 	bankid = '107001012',
 )
+
+Fidelity = dict(
+	caps = ['SIGNON', 'INVSTMT'],
+	fid = '7776',
+	fiorg = 'fidelity.com',
+	url = 'https://ofx.fidelity.com/ftgw/OFX/clients/download',
+)

@@ -12,6 +12,7 @@ setup_params = dict(
 			'Los Alamos National Bank=jaraco.institutions.sites:LANB',
 			'Chase (Credit Card)=jaraco.institutions.sites:Chase',
 			'SLFCU=jaraco.institutions.sites:SLFCU',
+			'Fidelity=jaraco.institutions.sites:Fidelity',
 		],
 	),
 	setup_requires=[
