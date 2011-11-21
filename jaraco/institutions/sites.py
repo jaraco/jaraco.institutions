@@ -27,3 +27,10 @@ Fidelity = dict(
 	fiorg = 'fidelity.com',
 	url = 'https://ofx.fidelity.com/ftgw/OFX/clients/download',
 )
+
+AmericanFunds = dict(
+	caps = ['SIGNON', 'INVSTMT'],
+	fiorg = 'INTUIT',
+	fid = '7779',
+	url = 'https://ofx.financialtrans.com/tf/OFXServer?tx=OFXController&cz=702110804131918&cl=3000518',
+)

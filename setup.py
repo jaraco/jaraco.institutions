@@ -13,6 +13,7 @@ setup_params = dict(
 			'Chase (Credit Card)=jaraco.institutions.sites:Chase',
 			'SLFCU=jaraco.institutions.sites:SLFCU',
 			'Fidelity=jaraco.institutions.sites:Fidelity',
+			'American Funds=jaraco.institutions.sites:AmericanFunds',
 		],
 	),
 	setup_requires=[
