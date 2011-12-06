@@ -1,36 +1,40 @@
-SLFCU = dict(
+definitions = {
+
+'Sandia Laboratory FCU': dict(
 	caps = ["SIGNON", "BASTMT"],
 	fid = "1001",
 	fiorg = "SLFCU",
 	url = "https://www.cu-athome.org/scripts/serverext.dll",
 	bankid = "307083911",
-)
+),
 
-Chase = dict(
+'Chase (credit card)': dict(
 	caps = ["SIGNON", "CCSTMT"],
 	fid = "10898",
 	fiorg = "B1",
 	url = "https://ofx.chase.com",
-)
+),
 
-LANB = dict(
+'Los Alamos National Bank': dict(
 	caps = ['SIGNON', 'BASTMT'],
 	fid = '107001012',
 	fiorg = 'LANB',
 	url = 'https://ofx.lanb.com/ofx/ofxrelay.dll',
 	bankid = '107001012',
-)
+),
 
-Fidelity = dict(
+'Fidelity Investments': dict(
 	caps = ['SIGNON', 'INVSTMT'],
 	fid = '7776',
 	fiorg = 'fidelity.com',
 	url = 'https://ofx.fidelity.com/ftgw/OFX/clients/download',
-)
+),
 
-AmericanFunds = dict(
+'American Funds': dict(
 	caps = ['SIGNON', 'INVSTMT'],
 	fiorg = 'INTUIT',
 	fid = '7779',
 	url = 'https://ofx.financialtrans.com/tf/OFXServer?tx=OFXController&cz=702110804131918&cl=3000518',
-)
+),
+
+}

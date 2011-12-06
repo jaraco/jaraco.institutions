@@ -9,11 +9,7 @@ setup_params = dict(
 	zip_safe=False,
 	entry_points = dict(
 		financial_institutions = [
-			'Los Alamos National Bank=jaraco.institutions.sites:LANB',
-			'Chase (Credit Card)=jaraco.institutions.sites:Chase',
-			'SLFCU=jaraco.institutions.sites:SLFCU',
-			'Fidelity=jaraco.institutions.sites:Fidelity',
-			'American Funds=jaraco.institutions.sites:AmericanFunds',
+			"Jason's Institutions=jaraco.institutions.sites:definitions",
 		],
 	),
 	setup_requires=[
