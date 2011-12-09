@@ -37,4 +37,11 @@ definitions = {
 	url = 'https://ofx.financialtrans.com/tf/OFXServer?tx=OFXController&cz=702110804131918&cl=3000518',
 ),
 
+'Vanguard': dict(
+	caps = ['SIGNON', 'INVSTMT'],
+	fiorg = 'The Vanguard Group',
+	fid = '1358',
+	url = 'https://vesnc.vanguard.com/us/OfxDirectConnectServlet',
+)
+
 }
