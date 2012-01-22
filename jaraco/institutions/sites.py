@@ -34,7 +34,8 @@ definitions = {
 	caps = ['SIGNON', 'INVSTMT'],
 	fiorg = 'INTUIT',
 	fid = '7779',
-	url = 'https://ofx.financialtrans.com/tf/OFXServer?tx=OFXController&cz=702110804131918&cl=3000518',
+	url = 'https://ofx.financialtrans.com/tf/OFXServer?tx=OFXController&'
+		'cz=702110804131918&cl=3000518',
 ),
 
 'Vanguard': dict(
@@ -42,6 +43,14 @@ definitions = {
 	fiorg = 'The Vanguard Group',
 	fid = '1358',
 	url = 'https://vesnc.vanguard.com/us/OfxDirectConnectServlet',
-)
+),
+
+'Citibank': dict(
+	caps = ['SIGNON', 'CCSTMT'],
+	fiorg = 'Citigroup',
+	url = 'https://secureofx2.bankhost.com/citi/cgi-forte/ofx_rt?'
+		'servicename=ofx_rt&pagename=ofx',
+	fid = '24909',
+),
 
 }
