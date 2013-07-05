@@ -4,7 +4,7 @@ definitions = {
 	caps = ["SIGNON", "BASTMT"],
 	fid = "1001",
 	fiorg = "SLFCU",
-	url = "https://www.cu-athome.org/scripts/serverext.dll",
+	url = "https://ofx-prod.slfcu.org/ofx/process.ofx",
 	bankid = "307083911",
 ),
 
